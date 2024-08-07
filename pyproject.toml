@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fast-bulma"
+version = "0.1.0"
+description = "FastBulma is a high-performance implementation of the Bulma CSS framework using FastHTML."
+authors = ["Abdulaminkhon Khaydarov <webdasturuz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-fasthtml = "^0.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
